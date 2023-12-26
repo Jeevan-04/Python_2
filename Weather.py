@@ -32,4 +32,5 @@ def get_weather(city_name):
         print("Oops! Something went wrong:", err)
 
 # Example: Get weather for a specific city
-get_weather('London')
+x=input("Region: ")
+get_weather(x)
